@@ -37,8 +37,10 @@ section {
 
 .img {
   max-width: 34vw;
-  height: fit-content;
+  height: auto;
+  min-height: auto;
   border-radius: 15px;
+  min-width: 185px
 }
 .cabecalho {
   display: flex;
